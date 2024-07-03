@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Giovanni Torres</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="freeze-nav">
+        <div class="logo">Giovanni Torres</div>
+        <div class="freeze-menu">
+            <div class="freeze-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </div>
+        </div>
+        
+
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Giovanni Torres Foto de Perfil">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Olá, Me chamo</p>
+            <h1 class="title">Giovanni</h1>
+            <p class="section__text__p2">Desenvolvedor Web Front-End</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('./assets/resume-example.pdf')">Baixar Currículo</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="Meu Perfil no Linkedin" class="icon" onclick="location.href='https:/www.linkedin.com/in/giovanni-torres-a29b23292/'">
+                <img src="./assets/github.png" alt="Meu Perfil no Github" class="icon" onclick="location.href='https:/github.com/giovannitorres505'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Saiba mais</p>
+        <h1 class="title">Sobre mim</h1>
+        <div class="section-container">
+            
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Ícone de Experiência" class="icon">
+                        <h3>Objetivo</h3>
+                        <p>Em busca da primeira experiência profissional como <br/>Desenvolvedor Front-End</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Ícone de Educação" class="icon"/>
+                        <h3>Escolaridade</h3>
+                        <p>Análise e Desenvolvimento de Sistemas<br/></p>
+                        <p>UNESA</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    
+                    
+                    <p> Sou estudante de Análise e Desenvolvimento de Sistemas e estou cursando o início do 4° semestre na Universidade Estácio de Sá. Já trabalhei anteriormente na área fiscal e de garantia da qualidade, onde adquiri experiência com ferramentas como Excel e Power BI e pude desenvolver Soft Skills ao conviver com diversas personalidades. No entanto por curiosidade comecei a estudar programação e me identifiquei com esse âmbito. Portanto tendo percebido meu genuíno interesse comecei fazer a faculdade na vertente de Tecnologia da Informação.
+                        Não tenho experiência, porém tenho me dedicado a aprender linguagens de programação como: HTML, CSS, JavaScript, TypeScript, React, Next, Python e Java.</p>
+                    <br/>
+                    <p> Com o intuito de engrandecer meu conhecimento e começar a trabalhar nessa área que sou apaixonado e acredito que não há satisfação profissional maior que trabalhar com o que gosta. Além de que o verdadeiro crescimento profissional vem da capacidade de se adaptar, aprender e colaborar efetivamente com a equipe. Estou motivado e interessado a absorver o máximo de conhecimento possível e a contribuir com novas ideias e perspectivas.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="ïcone de Seta" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Saiba sobre meus</p>
+        <h1 class="title">Conhecimentos</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container2">
+                    <h2 class="experience-sub-title">Front-End</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icon"/>
+                            <div class="linguagens">
+                                <h3>HTML</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icon"/>
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icon"/>
+                            <div>
+                                <h3>React</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icon"/>
+                            <div>
+                                <h3>Next</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icon"/>
+                            <div>
+                                <h3>JavasScript</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+                <div class="details-container2">
+                    <h2 class="experience-sub-title">Back-End</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icon"/>
+                            <div>
+                                <h3>C++</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icon"/>
+                            <div>
+                                <h3>Java</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icon"/>
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container2">
+                    <h2 class="experience-sub-title">Outros</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icon"/>
+                            <div>
+                                <h3>Power BI</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icon"/>
+                            <div>
+                                <h3>Git</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icon"/>
+                            <div>
+                                <h3>Excel</h3>
+                                <p>Avançado</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icon"/>
+                            <div>
+                                <h3>Word</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Ícone de Experiência" class="icon"/>
+                            <div>
+                                <h3>Powerpoint</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="ïcone de Seta" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Meus</p>
+        <h1 class="title">Projetos</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container color-container">
+                    <div class-="article-container">
+                        <img src="./assets/project-1.png" alt="Project 1" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Primeiro Projeto</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https:/github.com/'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https:/github.com/'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class-="article-container">
+                        <img src="./assets/project-2.png" alt="Project 2" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Segundo Projeto</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https:/github.com/'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https:/github.com/'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class-="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Terceiro Projeto</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https:/github.com/'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https:/github.com/'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Informações para</p>
+        <h1 class="title">Contato</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+                <p><a href="giovannistorres1@gmail.com">giovannistorres1@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/giovanni-torres-a29b23292/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#experience">Experiência</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Giovanni Torres. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
